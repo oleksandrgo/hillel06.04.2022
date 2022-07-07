@@ -1,0 +1,26 @@
+h1 {text-align: center;}
+h1 {color: #25118c}
+h1 {background-color: #a09bba;}
+h2 {text-align: center;}
+h2 {color: #2407b5}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	border: 10px solid #293828;
+	border-radius: 25px;}
+#list {border-style: solid;
+border-color: #dbd7d7;}
+#opros {background-color: #ede4e4;}
+#opros {
+	display: block;
+	padding: 20px;
+	width: 75%;
+	border: 10px solid #e8d5d3;
+	border-radius: 10px;}
+#footer:hover{background-color: #dce8d3}
+#list_music {
+	background-image: url(003.jpg);
+	opacity: 0.8;}
+	
