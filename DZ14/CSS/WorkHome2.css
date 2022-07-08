@@ -1,0 +1,52 @@
+.logo:hover {
+background: #0078BF;
+color: #fff;
+}
+
+div	{
+	background-color: green;
+}
+
+#music{
+	background-color: violet;
+}
+
+#music:hover{background-color: #66ffcc}
+.city{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+	height: 50;
+	border: 10px solid #9999ff;
+	border-radius: 40px;}
+#photo{background-color: #fa8e47}
+
+#choose {
+	display: block;
+	padding: 20px;
+	width: 20%;
+	border: 10px solid #9999ff;
+	border-radius: 40px;
+    background-color: #cc6699;}	
+
+    a {
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    }
+
+a:hover {
+    font-size: 30px;
+}
+
+footer {
+	background-image: url(https://oir.mobi/uploads/posts/2021-06/thumbs/1623718749_20-oir_mobi-p-more-panorama-priroda-krasivo-foto-31.jpg);
+	background-size: cover;
+	font-style: color:white;
+}
