@@ -1,0 +1,77 @@
+body {background-image: url(images/1920.jpg);
+ background-size: contain;}
+p{
+ 	color: #8c1aff;
+ 	font-size: 35px;
+ 	text-align: center;
+    margin-left: 150px;
+ 	margin-right: 150px;
+}
+h1{
+	color: #99ffcc;
+ 	font-size: 35px;
+ 	font-family: Comic Sans MS, Comic Sans, cursive;
+ 	text-align: center
+}
+h2{
+	color: #ffff99;
+ 	font-size: 35px;
+ 	font-family: Comic Sans MS, Comic Sans, cursive;
+ 	text-align: center
+}
+h3{
+	color: #ff99ff;
+ 	font-size: 35px;
+ 	font-family: Comic Sans MS, Comic Sans, cursive;
+ 	text-align: center;
+ 	margin-top: 100px;
+}
+div{
+  text-align: center;
+}
+#first{
+	margin-top: 150px;
+}
+#second{
+	margin-top: 10px;
+}
+#G{
+	color: #ff99ff;
+	margin-top: 50px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#T{
+	color: #ff99ff;
+	margin-top: 430px;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+}
+#sex{
+	text-align: center;
+}
+#text{
+	color: #8c1aff;
+ 	font-size: 35px;
+ 	text-align: center;
+ 	margin-left: 150px;
+ 	margin-right: 150px;
+}
+#third{
+	margin-top: 15px;
+}
+ul{
+	color: #ffbb99;
+ 	font-size: 35px;
+}
+ul li{
+	margin-left: 150px;
+	font-family: Courier New, monospace;
+}
+nav{
+	text-align: center;
+	font-size: 35px;
+}
+footer{
+	background-color: #ff99ff;
+	text-align: center;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
