@@ -57,6 +57,9 @@
 @media (max-width: 600px) {
     .menu-main li {display: block;}
 }
+body{
+
+}
 div{
     width: 850px;
     margin: 0 auto;
@@ -66,3 +69,25 @@ div{
      display: block;
      margin-left: auto;
      margin-right: auto }
+ .box{background-color: aliceblue}
+ h1{
+     background-color:#133af7;
+     color: aliceblue;
+     font-size: xx-large;
+ }
+ ul{
+     font-style: italic;
+ }
+ .box {
+     background-color: #133af7;
+ }
+ h3{
+     background-color: aliceblue;
+     color:#133af7;
+ }
+.box{
+    background-color: #133af7;
+}
+form {
+    color: #8b1509;
+}
