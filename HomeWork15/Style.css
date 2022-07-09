@@ -1,0 +1,170 @@
+h1 {
+ text-align: center;
+ margin: 10px 40px 10px;
+ font-size: 45px;
+ color:#870404;
+ text-shadow: 1px 1px 3px #000;
+ font-family: serif;
+}
+
+h2 {
+ text-align: center;
+ margin: 10px 40px 10px;
+ font-size: 20px;
+ color:#fff;
+ text-shadow: 1px 1px 3px #000;
+ font-family: serif;
+}
+  
+
+nav{
+  margin: 27px auto 0;
+  position: relative;
+  width: 1000px;
+  height: 50px;
+  background-color: #402332;
+  border: 1px solid  #000;
+  border-radius: 8px;
+  font-family: serif;
+}
+
+nav a {
+line-height: 50px;
+height: 100%;
+font-size: 15px;
+display: inline-block;
+position: relative;
+z-index: 1;
+text-decoration: none;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+cursor: pointer;
+}
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all .5s ease 0s;
+  border-radius: 8px;
+}
+a:nth-child(1) {
+  width: 180px;
+}
+a:nth-child(2) {
+  width: 190px;
+}
+a:nth-child(3) {
+  width: 140px;
+}
+a:nth-child(4) {
+  width: 180px;
+}
+a:nth-child(5) {
+  width: 160px;
+}
+a:nth-child(6) {
+  width: 130px;
+}
+nav .start-home, a:nth-child(1):hover ~ .animation {
+  width: 180px;
+  left: 0;
+  background-color: #870404;
+}
+nav .start-home, a:nth-child(2):hover ~ .animation {
+  width: 190px;
+  left: 200px;
+  background-color: #870404;
+}
+nav .start-home, a:nth-child(3):hover ~ .animation {
+  width: 140px;
+  left: 400px;
+  background-color: #870404;
+}
+nav .start-home, a:nth-child(4):hover ~ .animation {
+  width: 180px;
+  left: 500px;
+  background-color: #870404;
+}
+nav .start-home, a:nth-child(5):hover ~ .animation {
+  width: 160px;
+  left: 700px;
+  background-color: #870404;
+}
+nav .start-home, a:nth-child(6):hover ~ .animation {
+  width: 130px;
+  left: 870px;
+  background-color: #870404;
+}
+
+body {
+  font-size: 12px;
+  font-family: sans-serif;
+  background: #4f3741;
+}
+h5 {
+ margin: 100px 100px 100px;
+ font-size: 14px;
+ color:#fff;
+ text-shadow: 1px 1px 3px #000;
+ font-style: italic;
+ padding-left: 320px;
+ padding-top: 120px;
+ padding-right: 500px;
+}
+
+img {
+  padding-left: 250px;
+}
+
+h3 {
+ text-align: center;
+ margin: 10px 40px 10px;
+ font-size: 25px;
+ color:#fff;
+ text-shadow: 1px 1px 3px #000;
+ font-family: serif;
+
+}
+h4 {
+ text-align: center;
+ padding-right: 100px;
+ padding-left: 100px;
+ font-size: 20px;
+ color:#fff;
+ text-shadow: 1px 1px 3px #000;
+ font-family: serif;
+}
+#Pages {
+ padding-right: 250px;
+ 
+ }
+ 
+#Contact {
+  padding-top: 120px;
+  padding-right: 1000px;
+  color: #fff;
+}
+
+
+#name {
+margin: 10px 10px 10px;
+font-size: 20px;
+font-family: serif;
+color:#fff;
+}
+
+#Phone {
+margin: 10px 10px 10px;
+font-size: 20px;
+font-family: serif;
+color:#fff;
+}
+
+#Email {
+margin: 10px 10px 10px;
+font-size: 20px;
+font-family: serif;
+color:#fff;
+}
