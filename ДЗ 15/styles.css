@@ -1,0 +1,13 @@
+ul li: nth-child(1){
+	background-color: blue;
+}
+<div {display: flex;
+  justify-content: space-between;; style="background-image: url(https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Subaru_Logo.svg/1920px-Subaru_Logo.svg.png);
+	background-position: space-between;"}>
+
+	<style>
+   li {
+   	justify-content: center;
+   	align-items:  center;
+    	background-color: black;
+   }
