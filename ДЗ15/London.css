@@ -1,0 +1,30 @@
+ul li:nth-child(1){
+	background-color: lightblue;
+}
+ul li:nth-child(2){
+	background-color:rosybrown;
+}
+ul li:nth-child(3){
+	background-color:lightskyblue;
+}
+ul li:nth-child(4){
+	background-color: royalblue;
+}
+ul li:nth-child(5){
+	background-color: gainsboro;
+}
+.box{
+	border:5px blue;
+	width: 300px;
+	height: 150px;
+	padding:1px;
+	margin: 1%
+}
+
+ <p>
+    <img src="photo.jpg" alt="BigBen" width="120" height="120">
+    <img src="photo1.jpg" alt="City" width="120" height="120">
+    <img src="photo2.jpg" alt="Skyscraper" width="120" height="120">
+  </p>
+
+
