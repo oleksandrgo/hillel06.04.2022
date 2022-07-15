@@ -58,7 +58,7 @@ for (let a = 0; a < maxNumber; a++) {
 console.log("----------------------------")*/
 
 
-console.log("Task4");
+/*console.log("Task4");
 
 let n = 1000;
 let numberIteration = 0;
@@ -67,4 +67,4 @@ do {
 	numberIteration++;
 } while (n > 50);
 console.log( "Resolt: n = " + n );
-console.log( "NumberIteration: " + numberIteration );
+console.log( "NumberIteration: " + numberIteration );*/
