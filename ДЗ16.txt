@@ -1,0 +1,75 @@
+Отработала на
+https://www.jdoodle.com/online-java-compiler/
+
+
+1
+
+public class MyClass {
+    public static void main(String args[]) {
+                int n = 10;
+		int k = 3;
+		int m = n%k;
+        
+        if (m > 0) {
+            System.out.println(" Делится с остатком " +m) ;
+        } else {
+            System.out.println("Делится");
+        }
+    }
+ }
+
+2
+
+
+public class Main {
+  static void drawTriangle(int q, String c) {
+        String p="";
+        for (int i = 0; i < q; i++) {
+            p=p+c;
+            System.out.println(p);
+        }
+  }
+
+  public static void main(String[] args) {
+    drawTriangle(5,"*");
+    drawTriangle(7,"x");
+    drawTriangle(5,"#");
+  }
+}
+
+
+3
+
+public class MyClass {
+    public static void main(String args[]) {
+       for (int n = 0; n < 100; n++) {
+            
+		int m = n%2;
+        
+        if (m == 0) {
+            System.out.println (n) ;
+        } 
+        }
+    }
+ }
+
+
+
+4
+
+
+public class MyClass {
+    public static void main(String args[]) {
+        int i=0;
+        float n;
+        for (n = 1000; n >= 50; n=n/2) {
+		    i++;
+		    System.out.println (n) ;
+        }
+       
+        
+        System.out.println (n) ;
+        System.out.println (i) ;
+    }
+ }
+
