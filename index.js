@@ -1,13 +1,12 @@
  'use strict'
  //console.log("task 1");
 
- /*let a = 10;
-  let b = 2;
-  let c = a%b;
+ /*let a = prompt('Введите число А');
+  let b = prompt('Введите число В');
   if((a % b) != 0) {
-  alert ('Делится' + c);
+  alert ('Делится' + a/b);
   } else {
-  alert ('Остаток от деления' + a/b);
+  alert ('Остаток от деления' + a%b);
   }*/
 
 
