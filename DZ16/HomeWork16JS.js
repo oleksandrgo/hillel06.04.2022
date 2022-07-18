@@ -1,18 +1,18 @@
-/*console.log("Task1");
+console.log("Task1");
 var a;
 var b;
-a = 115;
-b = 5;
+a = 25;
+b = 15;
 var c = a/b - Math.floor(a/b);
 if (c > 0) {
 	console.log("Делится с остатком");
-	console.log("Остаток = " + Math.ceil( 1/c ));
+	console.log("Остаток = " + Math.round(c*b));
 } else {
 	console.log("Делится");
     console.log("Результат = " + a/b);
 }
 
-console.log("--------------------------");*/
+console.log("--------------------------");
 
 /*console.log("Task1 - Varian2");
 var a;
