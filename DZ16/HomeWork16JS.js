@@ -1,7 +1,7 @@
 console.log("Task1");
 var a;
 var b;
-a = 25;
+a = 24;
 b = 15;
 var c = a/b - Math.floor(a/b);
 if (c > 0) {
