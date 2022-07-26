@@ -1,0 +1,52 @@
+body {
+	background-image: url("https://petsi.net/images/dogbreed/12.jpg");
+	background-size: cover;
+}
+
+.pug {
+display: flex;
+justify-content: right;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+h2 {
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+}
+
+.state {
+	text-decoration: underline;
+	display: flex;
+	justify-content: center;
+}
+
+p:hover{
+	color: darkred;
+	font-size: 20px;
+	background-color: grey;
+	font-style: italic;
+	
+}
+
+ul li:nth-child(odd){
+	background-color: blue;
+} 
+
+ol li:nth-child(even){
+	background-color: yellow;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+}
+
+.audio {
+display: flex;
+	justify-content: center;
+}
