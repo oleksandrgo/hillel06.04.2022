@@ -8,14 +8,17 @@
 	</head>
 	<body>
 		<div class="main">
-			<div class="homepage">
+			<div class="homepage" id="homepage">
 				<div class="menu">
 					<a href="#AboutDown" class="btn">О нас</a>
 					<a href="#UnicorDown" class="btn">Единороги</a>
 					<a href="#ContactDown" class="btn">Контакты</a>
 				</div>
+				<div class="line">
+					
+				</div>
 				<div class="content">
-					<h1>Прогулка вдоль пляжа<br> на Единороге</h1>
+					<h1 id="mainText">Прогулка вдоль пляжа<br> на Единороге</h1>
 					<a href="#Down" class="btn btn1">Оставить заявку</a>
 				</div>	
 				<div class="benefits">
@@ -29,7 +32,7 @@
 					</div>
 					<div class="ben3">
 						<h3>Эмоции</h3>
-						<p>Опыт от прогулки запомнится вам <br>sна всю жизнь</p>
+						<p>Опыт от прогулки запомнится <br>вам sна всю жизнь</p>
 					</div>
 				</div>
 			</div>
@@ -60,19 +63,19 @@
 					<img src="img/5.png">
 				</div>
 			</div>
-			<div class="order">
+			<div class="order" name="orderForm">
 				<a name="Down"></a>
 				<h2>Форма заявки</h2>
-				<form class="fm">
+				<form class="fm" name="orderForm">
 					<p>Имя:</p>
-					<input class="st" type="text" name="name" placeholder="Ваше имя">
-					<p>Номер телефона:</p>
-					<input class="st" type="text" name="phone" placeholder="Телефон">
+					<input class="st" type="text" name="userName" placeholder="Ваше имя">
 					<p>Email:</p>
 					<input class="st" type="email" name="email" placeholder="Email">
+					<p>Номер телефона:</p>
+					<input class="st" type="text" name="phone" placeholder="Телефон">
 					<p>О себе:</p>
-					<textarea class="tarea" cols="30" rows="6" placeholder="Напишите, что-то о себе. Так у вас больше шансов, что единороги захотят встретится именно с вами"></textarea>
-					<button class="btnfm"><a>Отправить</a></button>
+					<textarea class="tarea" cols="30" rows="6" name="aboutUser" placeholder="Напишите, что-то о себе. Так у вас больше шансов, что единороги захотят встретится именно с вами"></textarea>
+					<p><Input name="btnOrder" type="button" id="btnfm" class="btnfm" Value="Отправить"></p>
 				</form>
 			</div>
 			<div class="footer">
@@ -88,5 +91,6 @@
 				</div>
 			</div>
 		</div>
+		<script src="js/app.js"></script>
 	</body>
 </html>

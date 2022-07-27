@@ -17,8 +17,14 @@ body {
 	font-family: Franklin Medium;
 	src: url(../fonts/Franklin Gothic Medium Regular.ttf);
 }
+.menu {
+	position: fixed;
+	background-color: #ffc0cb9e;
+	padding: 25px 20px;	
+	width: 1250px;
+}
 .main {
-	max-width: 1024px;
+	max-width: 1250px;
     height: 100%;
     margin: 0 auto;
 }
@@ -38,33 +44,40 @@ body {
     color: white;
     border-radius: 12px;
 }
-.homepage {
+#homepage {
 	margin: 0 auto;
-	background-image: url(../img/public.png);
-	background-color: #fc86db;
-	background-size: 100%;
+	background-color: #ffc0cb96;
 }
-
+.homepage {
+	width: 100%;
+	background-image: url(../img/public.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 760px;
+    background-size: 100%;
+}
+.line {
+	height: 2px;
+}
+#mainText {
+	margin-top: 100px;
+}
 .content h1 {
+
 	font-family: Hamerslag Heavy;
 	font-size: 86px;
 }
 
 .content {
-		margin-left: 30px;
-}
-
-
-
-.menu {
-	background-color: #ffc0cb9e;
-	padding: 25px 20px;	
+	width: 100%;
+	margin-left: 30px;
 }
 
 .menu a {
+	max-width: 1250px;
 	font-family: Franklin Gothic;
 	display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: #1f1c18;
     margin-left: 20px;
@@ -73,9 +86,10 @@ body {
 } 
 .benefits p {
 	font-family: Franklin Medium;
+	font-size: 20px;
 }
 .benefits {
-	margin-top: 25px;
+	margin-top: 120px;
 }
 .ben1 {
 	display: inline-block;
@@ -108,7 +122,7 @@ body {
 	text-align: center;
 	padding: 20px 100px 70px 100px;
 	font-family: Franklin Medium;
-	font-size:18px ;
+	font-size:20px ;
 	text-align: justify;
 }
 .about a {
@@ -189,7 +203,8 @@ body {
 	width: 500px;
 	border: 1px solid grey;
 	height: 30px;
-	font-family: Franklin Medium;	
+	font-family: Franklin Medium;
+	background-color: #ffffff9c;
 }
 .tarea {
 	font-family: Franklin Medium;
@@ -198,6 +213,7 @@ body {
 	overflow: auto;
 	width: 500px;
 	height: 200px;
+	background-color: #ffffff9c;
 }
 .btnfm {
 	position: inherit;
@@ -215,9 +231,10 @@ body {
 }
 .Contact {
 	display: inline-block;
-	margin: 30px 0 78px 0;
-
+	margin-top: 100px;
+	margin-left: 35%;
 }
+
 
 .who {
 	display: inline-block;
