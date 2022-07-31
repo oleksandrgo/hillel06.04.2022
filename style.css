@@ -1,0 +1,30 @@
+ul li {
+color:blue;
+	}
+h1 {
+	color:red;
+}
+input type {
+	color:green;
+}
+form {
+	color:green;
+}
+p {
+	color:gray;
+	form-size:10px;
+	height:80px;
+	width:600px;
+	background-color:yellow;
+	border:5px solid gray;
+}
+body {
+	background-image:url(picture/1654633795_1-kartinkin-net-p-kartinki-s-velosipedom-1.jpg);
+	background-size:2000px;
+}
+div {
+	color:blue;
+}
+H5 {
+	color:white;
+}
