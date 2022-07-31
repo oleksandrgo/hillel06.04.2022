@@ -75,3 +75,26 @@ footer{
 	text-align: center;
 	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
+.titles{
+	width: 140px;
+	float: left;
+}
+
+#form_message{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5px;
+	margin:10px;
+	padding: 10px;
+	width: 320px;
+	height:330px;
+}
+
+#form_message input,textarea{
+	border-radius: 5px;
+	width: 170px;
+}
+
+#submit{
+	height: 50px;
+	float: center;
+}
